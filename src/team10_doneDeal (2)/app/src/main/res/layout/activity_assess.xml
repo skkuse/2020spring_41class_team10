@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssessActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="평가하기"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/veryGood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매우 만족" />
+
+    <Button
+        android:id="@+id/good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="만족" />
+
+    <Button
+        android:id="@+id/soSo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="보통" />
+
+    <Button
+        android:id="@+id/bad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="불만족" />
+
+    <Button
+        android:id="@+id/veryBad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매우 불반족" />
+</LinearLayout>
